@@ -1,11 +1,9 @@
 /* ==UserStyle==
 @name         Dark-OrHarambam
-@namespace    github.com/ignaudioz/dark-orharambam
-@description  Dark mode implementation for OrHarambam.
-@author       audioz <audioz@discord> (https://github.com/ignaudioz)
-@homepageURL  https://github.com/ignaudioz/dark-orharambam
-@supportURL   https://github.com/ignaudioz/dark-orharambam/issues
-@version      0.0.1
+@version      20230724.08.07
+@namespace    userstyles.world/user/ignaudioz
+@description  Dark theme for OrHarambam.
+@author       ignaudioz
 @license      MIT
 ==/UserStyle== */
 
@@ -38,7 +36,11 @@
     --wcrTextColor: white !important;
     --wcrActionTextColor: white !important;
     --navigation-backgroundColor: #17191e !important;
-    --ricos-custom-p-color: gray !important
+    
+    --ricos-custom-editor-placeholder-color: #9197a3 !important;
+    --ricos-custom-p-color: #f7f7f7 !important;
+    --ricos-text-color: #f7f7f7 !important;
+    --forumDisabledText: #f7f7f7 !important;
 }
 strong {
     color: white !important;
@@ -96,6 +98,9 @@ div.gallery-item-container{
 
 .J2__qI .klQGNR svg, .aizuI7 {
     fill: #f7f7f7;
+}
+svg {
+fill: #f7f7f7 !important;
 }
 
 /* page background */
@@ -370,10 +375,26 @@ h2[data-hook*="post-title-with-activity"]{
      border-color: rgb(16, 63, 84,0.75) !important;
 }
 
-
 /* notification label color*/
 .VzaX_Y {
   background-color: rgba(var(--badge-bg,226,28,33),var(--alpha-badge-bg,1)) !important;
 }
 
+/* === Content Write == */
+.ZIvP0P .ProseMirror .is-editor-empty:first-child::before{
+    color: #9197a3 !important;
+}
+
+[dir] .Jtb-y:hover:not([disabled]):not(.a9G5o){
+    background-color: var(--clickable-2);
+}
+
+.mh9Cd svg {
+  color: var(--fg);
+}
+
+/* === Member card === */
+.GdrPLC{
+    background-color: var(--bg-2);
+}
 }
