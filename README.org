@@ -1,0 +1,19 @@
+#+STARTUP: nofold
+#+HTML: <div align="center">
+
+* Dark-OrHarambam
+Dark mode implementation for OrHarambam.
+
+[[https://userstyles.world/api/style/11076.user.css][https://img.shields.io/badge/Install%20directly%20with-Stylus-116b59.svg?longCache=true&style=flat]]
+
+#+HTML: <img src="https://userstyles.world/preview/11076/1.webp" width="100%"/>
+
+#+HTML: </div>
+
+** Installation
+You have to install [[https://add0n.com/stylus.html][Stylus]] and then click on the install link below.
+
+[[https://userstyles.world/api/style/11076.user.css][https://img.shields.io/badge/Install%20directly%20with-Stylus-116b59.svg?longCache=true&style=flat]]
+
+** Contributing
+Contributing is welcome!
